@@ -1,8 +1,5 @@
 import os
 
-print("DEBUG START")
-
-print("TELEGRAM_TOKEN =", os.getenv("TELEGRAM_TOKEN"))
-print("OPENAI_API_KEY =", os.getenv("OPENAI_API_KEY"))
-
-print("DEBUG END")
+print("BOT STARTED")
+print("TELEGRAM =", os.getenv("TELEGRAM_TOKEN"))
+print("OPENAI =", os.getenv("OPENAI_API_KEY"))
